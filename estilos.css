@@ -1,0 +1,110 @@
+.contenedorHamburguesasCards{
+    background-color: #1e1e1e;
+}
+
+.card{
+    --bs-card-bg:none !important;
+    overflow: hidden !important;
+    border-radius: 1rem !important;
+    margin-bottom: 2rem;
+}
+
+.imgHambur{
+    height: 15rem;
+}
+
+.card-body{
+    background-color: #262626;
+    background-color: #332e2e;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 26.04px;
+    color: #e5a75c !important;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.card-text{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/* BARRA DE NAVEGACION */
+
+.ContenedorNav{
+    padding-right:0 !important;
+    padding-left:0 !important;
+}
+.barra{
+    background-color: #262626 !important;
+}
+
+.navbar-brand, .nav-link{
+    color: #e5a75c !important;
+
+}
+
+.ContenedorDescripcionHome{
+    background-image: url(./Imagenes/HomeDescripcion.jpg);
+    background-color: #332e2e;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position-y: 75%;
+    color: #e5a75c;
+    font-weight: 600;
+    font-size: 3.5rem;
+    padding: 3rem;
+
+}
+
+/* FOOTER */
+
+.Footer{
+    background-color: #332e2e;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1.5rem;
+}
+
+.DescripcionFooter{
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.1rem;
+}
+
+
+/* FORMULARIO */
+.ContenedorFormPadre{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./Imagenes/HamburPortada.jpg);
+    background-size: cover;
+}
+.ContenedorForm{
+    /* height: 70vh; */
+    background-color: rgba(51, 46, 46, 0.8);
+    padding: 2.5rem !important;
+    border-radius: 1.5rem;
+}
+
+.objetoLabel{
+    color: #e5a75c;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.form{
+    display: flex !important;
+    align-items: center !important;
+}
+
+.botonFormulario{
+    background-color: #e5a75c !important;
+}
